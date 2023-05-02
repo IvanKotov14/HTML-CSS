@@ -1,0 +1,53 @@
+
+.slider__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+    z-index: 2;
+    pointer-events: none;
+    position: absolute;
+
+  }
+.swiper__img {
+    position: relative;
+    z-index: -2;
+    min-height: 600px;
+    border-radius: 32px;
+   
+}
+@media (max-width:500px) {
+    .swiper__img {
+        min-height: 300px;
+    }
+}
+    
+
+.background__img1 {
+    background-image: url("./img/low-angle-photo-of-balconies-2462015\ 1.png");
+max-width: 100%;
+height: 100%;
+}
+.background__img2 {
+    background-image: url("./img/hero-pic-1920-2.png");
+    max-width: 100%;
+    height: 100%;
+}
+.background__img3 {
+    background-image: url("./img/hero-pic-1920-3.png");
+    max-width: 100%;
+height: 100%;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,7px);
+}
+:root {
+    --swiper-theme-color: #fff;
+}
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,15px));
+}
+.swiper-pagination-bullet {
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,15px));
+}

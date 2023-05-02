@@ -1,0 +1,65 @@
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover  {
+    background-color: #E5E5E5;
+    padding: 10px 40px ;
+    
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    font-weight: 700;
+    background-color: #E5E5E5;
+    line-height: 32px;
+}
+.ui-accordion .ui-accordion-header {
+    font-size: 24px;
+    padding: 40px 0;
+    margin: 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    background-color: #E5E5E5;
+}
+.ui-widget-content { 
+    background-color: #E5E5E5;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border: 0;
+  border-top: 1px ;
+ 
+  border-bottom: none;
+  color: #454545;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: none;
+    border-top: 1px solid #888 ;
+    color: black;
+}
+
+.ui-helper-reset {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.ui-widget-content {
+    border: none;
+    border-bottom: 1px ;
+    color: black;
+}
+.ui-icon {
+    display: none;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 0 ;
+    padding-bottom: 32px;
+}
+.ui-accordion .ui-accordion-header {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.plus {
+    transition: transform 0.3s ease-in-out;
+}
+.ui-state-active .plus {
+    transform: rotate(45deg);
+    transform-origin:50% 50% = center center;
+}
+
+

@@ -1,0 +1,9 @@
+/* .tabs-nab__btn--active {
+    color: tan;
+    } */
+    .tabs-item {
+    display: none;
+    }
+    .tabs-item--active {
+    display: block;
+    }
